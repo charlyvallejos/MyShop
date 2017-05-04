@@ -21,6 +21,7 @@ spl_autoload_register(function($class){
     }
 });
 
+
 //print_r($params);
 
 $path = './controllers/'.$controller.'.php';

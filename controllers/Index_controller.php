@@ -1,7 +1,10 @@
 <?php
 
-class Index_controller {
-    function index($param = null){
+class Index_controller extends Controller{
+    public function __construct() {
+        parent::__construct();
+    }
+    public function index($param = null){
         if(empty($param)){
             $param = 'Tu';
         }
